@@ -1,0 +1,30 @@
+.content {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.5em;
+}
+
+img {
+    width: 37%;
+}
+
+@media (max-width: 767.98px) { 
+    img {
+        width: 85%;
+       margin-left: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    img {
+        width: 55%;
+    }
+}
