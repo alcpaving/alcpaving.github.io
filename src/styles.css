@@ -1,13 +1,19 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
 html, body { height: 100%; }
 body { 
     margin: 0px; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
 }
-
-h1, h2, h3, h4, h5, h6, p {
+ 
+/* h1, h2, h3, h4, h5, h6 {
     color: #18D800;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.active {
     font-weight: bold;
 }

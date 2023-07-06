@@ -1,37 +1,18 @@
 <div class="container content">
     <h1>Services</h1>
-    <p>These are the services that we currently offer! You can click on each individual card to learn more about that service and see some pictures of our previous projects.</p>
-    <br/>
-    <div class="row">
-        <div class="col-sm-4 mb-3 mb-sm-0">
-            <a href="/about">
+    <p>
+        We offer a comprehensive range of professional services to meet all your concrete paving needs in the DFW area. With our expertise and commitment to quality, we strive to deliver exceptional results that exceed your expectations. Our team of experienced professionals is dedicated to providing top-notch service and ensuring your complete satisfaction. We also provide free estimates!   
+        Our services include:
+    </p>
+    <div class="row card-group">
+        <div *ngFor="let service of services" class="col-sm-4">
             <div class="card">
                 <div class="card-body">
-                    <h2 class="card-title">Special title treatment</h2>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-title"><i style="font-size: 2rem; color: #18D800;" class="bi {{service.icon}}"></i> {{service.service_name}} </p>
+                    <p class="card-text">{{service.description}}</p>
+                    <!-- <img src="{{service.image_loc}}" class="card-img-bottom" alt="..."> -->
                 </div>
             </div>
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <a href="/about">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title">Special title treatment</h2>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <a href="/about">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title">Special title treatment</h2>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            </a>
         </div>
     </div>
 </div>
