@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 p, li {
   font-size: 19px;
   line-height: 1.85em;
