@@ -42,12 +42,7 @@ export class ServicesComponent {
     "description" : "We offer curb installation and repair services that help define your property's boundaries while enhancing its appearance.",
     "image_loc" : "misc",
     "icon" : "bi-cone-striped"
-  }, 
-    { "service_name" : "Slabs",
-      "description" : " From foundation slabs to concrete flooring, we provide reliable and level concrete slabs that form the solid base for your structures.",
-      "image_loc" : "misc",
-      "icon" : "bi-house-fill"
-    }, 
+  },
     { "service_name" : "& More!",
       "description" : "If you require a service not listed, feel free to contact us and tell us about your project to see if we can help.",
       "image_loc" : "misc",
